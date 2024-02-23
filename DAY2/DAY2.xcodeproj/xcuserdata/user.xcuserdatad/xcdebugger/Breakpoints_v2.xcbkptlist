@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "01702AB6-A85D-4471-A618-8B75E22DF561"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D626692A-82C8-43B6-B1F4-987C5A685B53"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DAY2/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D626692A-82C8-43B6-B1F4-987C5A685B53 - afc780c7ced0308e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DAY2.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "DAY2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/swift_dev/100_Days_of_Swift/DAY2/DAY2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "3028">
+               </Location>
+               <Location
+                  uuid = "D626692A-82C8-43B6-B1F4-987C5A685B53 - afc780c7ced0308e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DAY2.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "DAY2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/swift_dev/100_Days_of_Swift/DAY2/DAY2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "3020">
+               </Location>
+               <Location
+                  uuid = "D626692A-82C8-43B6-B1F4-987C5A685B53 - afc780c7ced030ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DAY2.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "DAY2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/swift_dev/100_Days_of_Swift/DAY2/DAY2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "2976">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
