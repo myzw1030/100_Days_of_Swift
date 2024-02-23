@@ -8,13 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Variables
-        var str = "Hello, playground"
-        str = "Goodbye"
-        print(str)
+        //        var str = "Hello, playground"
+        //        str = "Goodbye"
+        //        print(str)
         
         // Strings and integers
         let age = 38
@@ -37,11 +37,31 @@ class ViewController: UIViewController {
         print(str2)
         
         // Doubles and booleans
-        var pi = 3.141
+        let pi = 3.141
         print(pi)
         
-        var awesome = true
+        let awesome = true
         print(awesome)
+        
+        // String interpolation
+        let score = 85
+        let str = "Your score was \(score)"
+        print(str)
+        let results = "The test results are here: \(score)"
+        print(results)
+        
+        // Constants
+        let taylor = "swift"
+        
+        // Type annotations
+        let album: String = "Reputation"
+        let year: Int = 1989
+        let height: Double = 1.78
+        let taylorRocks: Bool = true
+        print("album: \(album), year: \(year), height: \(height), taylorRocks: \(taylorRocks)")
+        
+        // Simple types: Summary
+        
     }
 }
 
