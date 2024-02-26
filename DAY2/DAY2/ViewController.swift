@@ -73,6 +73,23 @@ class ViewController: UIViewController {
         print(scores)
         print(results1)
         
+        // Enumerations
+        enum Result {
+            case success
+            case failure
+        }
+        let result4 = Result.failure
+        print(result4)
+        
+        // Enum associated values
+        enum Activity {
+            case bord
+            case running(destination: String)
+            case talking(topic: String)
+            case singing(volume: Int)
+        }
+        let taling = Activity.talking(topic: "football")
+        print(taling)
     }
 
 
