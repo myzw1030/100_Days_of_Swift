@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         print(colors2)
         
         // Tuples
-        var name = (first: "Taylor", last: "Swift")
+        let name = (first: "Taylor", last: "Swift")
         print(name.0)
         print(name.last)
         
@@ -42,6 +42,37 @@ class ViewController: UIViewController {
         // 重複を含む可能性のある値のコレクションが必要な場合、または項目の順序が重要な場合は、配列を使用
         let pythons = ["Eric", "Graham", "John", "Michael", "Terry", "Terry"]
         print("address:\(address), set:\(set), pythons:\(pythons)")
+        
+        // Dictionaries
+        let heights = [
+            "Taylor Swift": 1.78,
+            "Ed Sheeran": 1.73
+        ]
+        print(heights["Taylor Swift"])
+        
+        // Dictionary default values
+        let favoriteIceCream = [
+            "Paul": "Chocolate",
+            "Sophie": "Vanilla"
+        ]
+        print(favoriteIceCream["Charlotte", default: "Unknown"])
+        
+        // Creating empty collections
+        var teams = [String: String]()
+        print(teams)
+        teams["Paul"] = "Red"
+        print(teams)
+        var results = [Int]()
+        print(results)
+        var words = Set<String>()
+        var numbers = Set<Int>()
+        print(words)
+        print(numbers)
+        var scores = Dictionary<String, Int>()
+        var results1 = Array<Int>()
+        print(scores)
+        print(results1)
+        
     }
 
 
