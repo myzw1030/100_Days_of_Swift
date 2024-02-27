@@ -90,6 +90,19 @@ class ViewController: UIViewController {
         }
         let taling = Activity.talking(topic: "football")
         print(taling)
+        
+        // Enum raw values
+        enum Planet: Int {
+            case mercury = 1
+            case venus
+            case earth
+            case mars
+        }
+        let earth = Planet(rawValue: 2)
+        print(earth)
+        
+        // Complex types: Summary
+        
     }
 
 
