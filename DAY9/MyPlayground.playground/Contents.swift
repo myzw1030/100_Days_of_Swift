@@ -18,6 +18,7 @@ var user = User()
 user.username = "twostraws"
 print(user)
 */
+/*
 struct Employee {
     var name: String
     var yearsActive = 0
@@ -27,8 +28,9 @@ struct Employee {
         print("Creating an anonymous employee…")
     }
 }
-
+*/
 // 2. Referring to the current instance
+/*
 struct Person {
     var name: String
     
@@ -59,3 +61,52 @@ struct Language {
     }
 }
 let french = Language(english: "French", local: "français", speakerCount: 220_000_000)
+*/
+// 3. Lazy properties
+/*
+struct FamilyTree {
+    init() {
+        print("Creating family tree!")
+    }
+}
+struct Person {
+    var name: String
+    lazy var familyTree = FamilyTree()
+    
+    init(name: String) {
+        self.name = name
+    }
+}
+var ed = Person(name: "Ed")
+
+ed.familyTree
+*/
+
+// 4. Static properties and methods
+/*
+struct Student {
+    static var classSize = 0
+    var name: String
+    
+    init(name: String) {
+        self.name = name
+        Student.classSize += 1
+    }
+}
+let ed = Student(name: "Ed")
+let taylor = Student(name: "Taylor")
+print(Student.classSize)
+*/
+
+// 5. Access control
+struct Person {
+    private var id: String
+    
+    init(id: String) {
+        self.id = id
+    }
+    func identify() -> String {
+        return "My social security number is \(id)"
+    }
+}
+let ed = Person(id: "12345")
